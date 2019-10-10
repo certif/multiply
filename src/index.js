@@ -1,3 +1,1 @@
-module.exports = function multiply(first, second) {
-  // your solution
-}
+module.exports =  (first, second) => String(BigInt(first) * BigInt(second));
